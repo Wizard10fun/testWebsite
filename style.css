@@ -8,10 +8,10 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background-image: url(C:\Users\mcmah\Downloads\prelab3B-3.jpg);
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Freflection%2F&psig=AOvVaw2x0qZ8BvD3Nqe1a0ERuM73&ust=1698526826047000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCOiFvNSPl4IDFQAAAAAdAAAAABAE);
     background-position: center;
     background-size: cover;
     padding: 10px 10;
     overflow: hidden;
-    
+
 }
