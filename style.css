@@ -19,7 +19,7 @@
 .anim{
     opacity: 0;
     transform: translateY(30px);
-    animation: moveup 0.5s linear forwards;
+    animation-name: moveup 0.5s linear forwards;
 }
 @keyframes moveup{
     100%{
