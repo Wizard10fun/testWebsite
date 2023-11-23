@@ -17,16 +17,12 @@
   align-items: center;
   justify-content: center; */
   text-align: center;
-  gap: 50px;
+  /*gap: 50px; */
   color: #fff;
   scroll-snap-align: start; 
 
 
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  
 }
 
 h2 {
@@ -36,12 +32,16 @@ h2 {
   margin: 0;
   padding: 0;
   margin-bottom: 0px;
-  color: #fff;
+  letter-spacing: 0.05em;
+  line-height: .9em;
+
+  
+}
+
+.name {
   font-weight: 900;
   font-size: 5em;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  line-height: .9em;
 }
 
 p {
@@ -49,7 +49,7 @@ p {
   font-weight: 500;
   font-size: 2.25em;
   margin-bottom: 15px; */
-  margin: 0px;
+  
   padding: 0;
 }
 
@@ -57,14 +57,78 @@ p {
   font-size: 70px;
   font-weight: 600;
   max-width: 650px;
+  margin: 30px;
 }
 
 .slide1{
-  background: linear-gradient(454deg, #4f4080, #9553ff);
+  color: #fff;
+  background: lightblue;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 .slide2{
-  background: linear-gradient(454deg, #404c80, #53ff88);
+  
+  color: black;
+  background: white;
 }
 .slide3{
-  background: linear-gradient(454deg, #9574ff, #ff5353);
+ 
+  color: black;
+  background: #f2f2f5;
+}
+.slide4{
+
+  color: black;
+  background: white;
+}
+.slide5{
+ 
+  color: black;
+  background: #f2f2f5;
+}
+.slide6{
+  
+  color: black;
+  background: lightblue;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    align-items: center;
+    
+}
+
+.navbar ul{
+  list-style-type: none;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: #313131;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+
+}
+
+.navbar a:hover{
+  background-color: rgb(205, 200, 200);
+}
+
+.navbar li{
+  float: left;
+}
+
+.abtheader {
+  margin: 30px;
 }
